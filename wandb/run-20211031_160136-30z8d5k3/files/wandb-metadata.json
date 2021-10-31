@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.11.0-38-generic-x86_64-with-glibc2.10",
+    "python": "3.8.8",
+    "heartbeatAt": "2021-10-31T10:31:39.526546",
+    "startedAt": "2021-10-31T10:31:36.443136",
+    "docker": null,
+    "gpu": "GeForce RTX 3060",
+    "gpu_count": 1,
+    "cpu_count": 6,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/kickstarter-NLP-V7/00.py",
+    "codePath": "00.py",
+    "git": {
+        "remote": "https://github.com/Programmer-RD-AI/kickstarter-NLP-V7.git",
+        "commit": "5098aac19fa1d7bc38963dcf610a798658c61104"
+    },
+    "email": "aigithub@gmail.com",
+    "root": "/media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/kickstarter-NLP-V7",
+    "host": "programmer-rd-ai",
+    "username": "indika",
+    "executable": "/media/indika/Sync/anaconda3/bin/python"
+}
