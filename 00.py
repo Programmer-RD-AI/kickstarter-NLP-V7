@@ -17,14 +17,14 @@ device = 'cuda'
 
 
 def tokenize(sentence):
-    return nltk.word_tokenize(sentence)
+    return nltk.word_tokenize(sentence.lower())
 
 
 print(tokenize('$100'))
 
 
 def stem(word):
-    return stemmer.stem(word)
+    return stemmer.stem(word.lower())
 
 
 print(stem('organic'))
@@ -71,7 +71,7 @@ np.random.shuffle(data)
 X = []
 y = []
 for d in tqdm(data):
-    X.append(bag_of_words(d, words))
+    X.append(bag_of_words(d[0], words))
     y.append(d[1])
 
 X_train, X_test, y_train, y_test = train_test_split(
