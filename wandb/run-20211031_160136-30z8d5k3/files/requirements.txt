@@ -184,7 +184,7 @@ lightning-bolts==0.4.0
 livereload==2.6.3
 llvmlite==0.36.0
 locket==0.2.1
-lxml==4.6.3
+lxml==4.9.1
 markdown==3.3.4
 markupsafe==2.0.1
 matplotlib==3.4.3
